@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+
+.socialLinks {
+    font-size: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+    font-size: 3vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainBlerb {
+    /* display: flex;
+    justify-items: center; */
+    display: block;
+    margin-left: 5vw;
+    /* margin-right: auto; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+table img {
+    width: 20vw;
+    height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+/* .name {
+position: fixed;
+top: 0vh;
+left: 2vh;
+} */
+
+/* mobile view */
+@media only screen and (max-width: 768px) {
+
+body {
+    font-size: 4vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+    font-size: 5vh;
+}
+.topNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+}
+
+
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.korchie2transback {
+    display: block;
+    width: 54vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sk_transBack {
+    width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+/* desktop view */
+@media only screen and (min-width: 768px) {
+    .topNav {
+        position: fixed;
+        top: 1vh;
+        right: 1vh;     
+    }
+
+    a {
+        padding: 1.5vh;
+    }
 }
