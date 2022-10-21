@@ -18,6 +18,7 @@ export default function Rugs() {
         <div>
 
             <a href="/">Back</a>
+            <Navbar />
 
             <p>I make custom, handmade rugs in my free time!</p>
 
@@ -43,7 +44,6 @@ export default function Rugs() {
 
             </table>
 
-            <Navbar />
             <SocialMedia />
 
         </div>

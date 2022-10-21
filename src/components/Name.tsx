@@ -1,7 +1,20 @@
+import skcircle from "../images/skcircle.png";
+
 export default function Name() {
     return (
-        // SK logo?
-        <p className="name">Stephanie Korch</p>
+
+        <div className="logo">
+
+
+
+            <img src={skcircle} className="skcircle" />
+            <h1 className="name">Stephanie Korch</h1>
+
+
+
+
+        </div>
+
     )
 }
 

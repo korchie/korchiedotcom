@@ -11,7 +11,7 @@ export default function Navbar() {
 
             <div>
                 <nav>
-                    <ul>
+                    <ul className="mainlinks">
                         <li>
                             <NavLink to="/aboutme">About Me</NavLink>
                         </li>

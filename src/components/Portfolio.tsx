@@ -7,6 +7,7 @@ export default function Portfolio() {
 
             <a href="/">Back</a>
 
+            <Navbar />
             <p>
                 I am looking to change my career path and pursue a position as a Full-Stack JavaScript Developer. I have always had a
                 passion for technology and am extremely excited to move in the direction of the tech industry. I recently graduated from
@@ -53,7 +54,6 @@ export default function Portfolio() {
 
             {/* add pdf? */}
 
-            <Navbar />
             <SocialMedia />
 
 

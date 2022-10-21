@@ -1,3 +1,27 @@
+body {
+    /* background: #312244; */
+    background: rgb(0, 100, 102);
+    background: linear-gradient(0deg, rgba(0, 100, 102, 1) 0%, rgba(33, 47, 69, 1) 35%, rgba(77, 25, 77, 1) 100%);
+    font-family: "Play", sans-serif;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    color: #006466;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+
+}
+
+p {
+    color: white;
+    font-size: 3vh;
+}
+
+a {
+    font-family: "Play", sans-serif;
+    color: white;
+}
+
 
 .socialLinks {
     font-size: 2vh;
@@ -6,8 +30,26 @@
     padding: 10px;
 }
 
-p {
-    font-size: 3vh;
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -45px;
+}
+
+.skcircle {
+    /* width: 10vw;
+    height: 10vw; */
+
+    width: 12vh; 
+    height: 12vh;
+    background: #065a60;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 10vh;
 }
 
 .mainBlerb {
@@ -16,12 +58,67 @@ p {
     display: block;
     margin-left: 5vw;
     /* margin-right: auto; */
+    font-size: 35px;
 }
 
 table img {
     width: 20vw;
     height: auto;
 }
+
+
+
+.topNav {
+    background: #0b525b;
+    color: white;
+    /* display: flex; */
+
+}
+
+.mainlinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    font-size: 2vw;
+}
+
+.mainlinks a {
+    /* color: white; */
+    font-family: "Amatic SC", sans-serif;
+}
+
+.korchie2transback {
+    width: 50vw;
+    margin-left: 50%;
+    margin-top: -80px;
+
+}
+
+.amContainer {
+    display: flex;
+}
+
+.amBlerb {
+    margin-top: 55px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*  ~~~~~~~~~~~ colors ~~~~~~~~~~~~~~~~~~~~ */
+/* 
+4d194d purple
+3e1f47 violet
+312244 darkest violet
+272640
+212f45
+1b3a4b going into teal
+1b3a4b dark teal
+144552
+0b525b
+065a60
+006466 teal */
+
 
 /* .name {
 position: fixed;
@@ -37,8 +134,13 @@ body {
 }
 
 .name {
-    font-size: 5vh;
+    font-size: 7vh;
 }
+
+/* .skcircle {
+    width: 10vw;
+} */
+
 .topNav {
     display: flex;
     flex-direction: column;
@@ -48,10 +150,10 @@ body {
 
 
 
-.name {
+/* .name {
     display: flex;
     justify-content: center;
-}
+} */
 
 .korchie2transback {
     display: block;
@@ -67,17 +169,25 @@ body {
     margin-right: auto;
 }
 
+.mainlinks {
+    list-style-type: none;
+    background: #0b525b;
+    color: white;
+    padding: 2vw 2vw;
+    border-radius: 10%;
+}
+
 }
 
 /* desktop view */
 @media only screen and (min-width: 768px) {
-    .topNav {
+    /* .topNav {
         position: fixed;
         top: 1vh;
         right: 1vh;     
-    }
+    } */
 
     a {
-        padding: 1.5vh;
+        /* padding: 1.5vh; */
     }
 }
