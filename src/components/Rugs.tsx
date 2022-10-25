@@ -42,7 +42,7 @@ export default function Rugs() {
                 <tr></tr>
                 <td><img src={redwings} /></td>
                 <td><img src={magikarp} /></td>
-                <td><img src={pikachu} /></td>
+                {/* <td><img src={pikachu} /></td> */}
 
             </table>
 

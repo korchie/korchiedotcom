@@ -24,8 +24,10 @@ export default function AboutMe() {
                     </p> */}
 
                     <p>
-                        When I'm not coding, I make handmade rugs in my free time. Please check out my Rugs tab above to check some of the ones I've made out! I play ice hockey, but haven't skated since pre-pandemic. I ride a motorcycle. I have a 2021 KTM 390 Adventure and have riden as far as Colorado and Texas. I will be making more road trips in the future! I am a gamer. I mostly play on PC no-a-days, but really enjoy "retro" gaming and also have a Nintendo Switch and Playstation 4. I have a cat named Precious. I love rock music! I have recently gotten into 3D printing.
+                        When I'm not coding, I make handmade rugs in my free time. I do this with a tufting gun, lots of yarn, glue, and scissors. I create designs and/or use selected images and artwork. Please check out my Rugs tab above to check some of the ones I've created! I play ice hockey, but haven't skated since pre-pandemic. I ride a motorcycle. I have a 2021 KTM 390 Adventure and have riden as far as Colorado and Texas from my home in Metro Detroit, Michigan. I will be making more road trips in the future! I am a gamer. I mostly play on PC now-a-days, but really enjoy "retro" gaming and also have a Nintendo Switch and Playstation 4. I have a cat named Precious, a 15-year-old rescue kitty. I love rock music! I have recently gotten into 3D printing.
                     </p>
+
+                    {/* add motorcycle trip pic? */}
 
                 </div>
 
