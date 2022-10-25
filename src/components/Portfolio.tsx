@@ -1,6 +1,7 @@
-import SocialMedia from "./SocialMedia"
-import Navbar from "./Navbar"
-import Name from "./Name"
+import SocialMedia from "./SocialMedia";
+import Navbar from "./Navbar";
+import Name from "./Name";
+import korchie3transback from "../images/korchie3transback.png";
 
 export default function Portfolio() {
     return (
@@ -12,42 +13,86 @@ export default function Portfolio() {
 
             <Navbar />
 
-            {/* add pic? */}
+            <div className="portfolioContainer">
 
-            <p className="portfolioBlerb">
-                I am looking to change my career path and pursue a position as a Full-Stack JavaScript Developer. I have always had a
-                passion for technology and am extremely excited to move in the direction of the tech industry. I recently graduated from
-                Grand Circus' coding program and was a Rocket Pro TPO Executive Title Coordinator with Rocket Mortgage. I really enjoyed
-                my time spent using computers and technology to get my job done and desire to take this to the next level.
-            </p>
+
+
+            </div>
+
+
+            <div className="containerAboveEd">
+
+                <p className="portfolioBlerb">
+                    I am looking to change my career path and pursue a position as a Full-Stack JavaScript Developer. I have always had a
+                    passion for technology and am extremely excited to move in the direction of the tech industry. I recently graduated from
+                    Grand Circus' coding program and was a Rocket Pro TPO Executive Title Coordinator with Rocket Mortgage. I really enjoyed
+                    my time spent using computers and technology to get my job done and desire to take this to the next level.
+                </p>
+
+                <img src={korchie3transback} className="korchie3transback" />
+
+
+            </div>
 
             <div className="edContainer">
 
-                <p className="edTitle">
+                <h2 className="edTitle">
                     Eduction:
-                </p>
+                </h2>
 
-                {/* <p> */}
-                <ul>
-                    <li className="ed">Grand Circus, Detroit, MI</li>
-                    <li className="ed">Full-Stack Javascript Bootcamp</li>
-                    <li className="ed">May 2021 - November 2021</li>
+                <dl>
+                    <div className="ed">
+                        <dt className="gc">Grand Circus, Detroit, MI</dt>
+                        <dt className="gc">Full-Stack Javascript Bootcamp</dt>
+                        <dt className="gc">May 2021 - November 2021</dt>
+                    </div>
 
-                    <p className="projectsTitle">Projects include:</p>
-                    <li><a href="https://what-s-out-there.web.app/">What's Out There?:</a> Uses React and Firebase. Frontend and backend elements. 4 API calls. Designated Dark Park locator.</li>
-                    <li>React API Search Engine: Uses TypeScript and React and Ticketmaster API to locate events in a certain zip code.</li>
-                    <li>JavaScript Budget App: Use of JavaScript and DOM manipulation to create a budget calculator.</li>
-                </ul>
+                    <dd className="projectsTitle">Projects include:</dd>
+                    <dd className="projects"><a href="https://what-s-out-there.web.app/">What's Out There?:</a> Uses React and Firebase. Frontend and backend elements. 4 API calls. Designated Dark Park locator.</dd>
+                    <dd className="projects">React API Search Engine: Uses TypeScript and React and Ticketmaster API to locate events in a certain zip code.</dd>
+                    <dd className="projects">JavaScript Budget App: Use of JavaScript and DOM manipulation to create a budget calculator.</dd>
 
-                <ul>
-                    <li className="ed">Wayne State University, Detroit, MI
-                        <li className="ed">Bachelor of Arts, Sociology</li>
-                        <li className="ed">August 2007 - December 2009</li>
-                    </li>
-                </ul>
-                {/* </p> */}
 
-                <p className="skillsTitle">Technical Skills:</p>
+                    <dd className="skillsTitle">Technical Skills:</dd>
+
+                    <dd className="skills">React</dd>
+                    <dd className="skills">TypeScript</dd>
+                    <dd className="skills">JavaScript</dd>
+                    <dd className="skills">Express & APIs</dd>
+                    <dd className="skills">Firebase</dd>
+                    <dd className="skills">MongoDB & SQL</dd>
+                    <dd className="skills">HTML</dd>
+                    <dd className="skills">CSS</dd>
+                    <dd className="skills">Git Bash/Terminal</dd>
+
+
+
+
+                    {/* <div className="wsu">
+
+                        <ul>
+                            <li className="ed">Wayne State University, Detroit, MI
+                                <li className="ed">Bachelor of Arts, Sociology</li>
+                                <li className="ed">August 2007 - December 2009</li>
+                            </li>
+                        </ul>
+
+                    </div> */}
+
+
+                    <div className="wsu">
+
+                        {/* <ul> */}
+                        <dt className="ed">Wayne State University, Detroit, MI</dt>
+                        <dt className="ed">Bachelor of Arts, Sociology</dt>
+                        <dt className="ed">August 2007 - December 2009</dt>
+                        {/* </ul> */}
+
+                    </div>
+
+
+                    {/* <p className="skillsTitle">Technical Skills:</p> */}
+                    {/* <div className="skillsTitle">Technical Skills:</div>
                 <ul>
                     <li className="ed">React</li>
                     <li className="ed">TypeScript</li>
@@ -58,7 +103,9 @@ export default function Portfolio() {
                     <li className="ed">HTML</li>
                     <li className="ed">CSS</li>
                     <li className="ed">Git Bash/Terminal</li>
-                </ul>
+                </ul> */}
+
+                </dl>
 
             </div>
 
@@ -67,6 +114,6 @@ export default function Portfolio() {
             <SocialMedia />
 
 
-        </div>
+        </div >
     )
 }

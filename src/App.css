@@ -28,6 +28,11 @@ a {
     color: white;
 }
 
+h2 {
+    color: #006466;
+    font-size: 40px;
+    /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
+}
 
 .socialLinks {
     font-size: 2vh;
@@ -130,46 +135,61 @@ table img {
     margin: 30px;
 }
 
-.ed {
-    color: #312244;
-    list-style: none;
-}
-
-.edTitle {
-    color: #006466;
-    /* border: 5px; */
-    margin-left: 10px;
-}
-
-.projectsTitle .edTitle .skillsTitle {
-    font-size: 30px;
-}
-
-.skillsTitle {
-    margin-left: 10px;
-    color: #006466;
-
-}
-
-.edContainer {
-    background-color: lightslategray;
-    opacity: 0.8;;
-    border-radius: 20px;
-    width: fit-content;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-}
-
-li {
-    margin-right: 5px;
-}
 
 img {
     border-radius: 4rem;
 }
 
+.edTitle {
+    margin-left: 10px;
+}
 
+.ed {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.projectsTitle {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.projects {
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+.skillsTitle {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.skills {
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+.wsu {
+    margin-top: 33.2px;
+}
+
+.edContainer {
+    background-color: lightslategray;
+    opacity: 90%;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerAboveEd {
+    display: flex;
+}
+
+.korchie3transback {
+    width: 50%;
+    height: 50%;
+}
 
 /*  ~~~~~~~~~~~ colors ~~~~~~~~~~~~~~~~~~~~ */
 /* 
@@ -229,6 +249,17 @@ body {
     width: 54vw;
 }
 
+.korchie3transback {
+    width: 54vw;
+    margin-top: 20px;
+}
+
+.containerAboveEd {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
 
 
 .mainlinks {
@@ -250,6 +281,10 @@ body {
 
 .amContainer {
     display: flex;
+    flex-direction: column;
+}
+
+.edContainer {
     flex-direction: column;
 }
 
@@ -302,9 +337,6 @@ body {
         height: 50%;
     }
 
-    .portfolioBlerb {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+   
 
 }
