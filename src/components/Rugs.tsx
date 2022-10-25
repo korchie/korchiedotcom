@@ -12,12 +12,14 @@ import wat from "../images/rugs/wat.jpg";
 import zamboni from "../images/rugs/zamboni.jpg";
 import SocialMedia from "./SocialMedia";
 import Navbar from "./Navbar";
+import Name from "./Name";
 
 export default function Rugs() {
     return (
         <div>
 
-            <a href="/">Back</a>
+            {/* <a href="/">Back</a> */}
+            <Name />
             <Navbar />
 
             <p>I make custom, handmade rugs in my free time!</p>

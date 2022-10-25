@@ -13,6 +13,9 @@ export default function Navbar() {
                 <nav>
                     <ul className="mainlinks">
                         <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
                             <NavLink to="/aboutme">About Me</NavLink>
                         </li>
                         <li>

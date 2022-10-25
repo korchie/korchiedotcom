@@ -1,5 +1,6 @@
 import SocialMedia from "./SocialMedia"
 import Navbar from "./Navbar"
+import Name from "./Name"
 
 
 export default function ContactMe() {
@@ -7,11 +8,13 @@ export default function ContactMe() {
 
         <div>
 
-            <a href="/">Back</a>
-
-            <h1>Coming Soon!</h1>
-
+            {/* <a href="/">Back</a> */}
+            <Name />
             <Navbar />
+
+            <p>Contact me via email at:</p>
+            <p>stephanie.korch@gmail.com</p>
+
             <SocialMedia />
 
         </div>
