@@ -14,11 +14,23 @@ import zamboni from "../images/rugs/zamboni.jpg";
 import SocialMedia from "./SocialMedia";
 import Navbar from "./Navbar";
 import Name from "./Name";
+import crx from "../images/rugs/crx.jpg";
 
 function IndividualIntervalsExample() {
     return (
         <div className='carouselContainer'>
             <Carousel fade>
+                <Carousel.Item interval={5000}>
+                    <img
+                        className="d-block"
+                        src={crx}
+                        alt="Honda CRX rug"
+                    />
+                    {/* <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption> */}
+                </Carousel.Item>
                 <Carousel.Item interval={5000}>
                     <img
                         className="d-block"

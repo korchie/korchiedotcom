@@ -22,7 +22,7 @@ h1 {
 
 p {
     color: white;
-    font-size: 4vh;
+    font-size: 28px;
     font-family: "Play", sans-serif;
 }
 
@@ -50,7 +50,7 @@ h2 {
 }
 
 .linkedInLogo {
-    background: white;
+    /* background: white; */
     padding: 3px;
     border-radius: 5px;
     margin-left: 300px;
@@ -164,6 +164,7 @@ table img {
     display: block;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 30px;
     
 }
 
@@ -176,11 +177,15 @@ table img {
 .amContainer {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
 }
 
 .portfolioBlerb {
-    margin: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 
@@ -295,7 +300,7 @@ img {
 }
 
 .carousel-indicators {
-    bottom: -38px;
+    margin-bottom: -2rem;
 }
 
 
@@ -396,6 +401,7 @@ p {
 .amContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .edContainer {
