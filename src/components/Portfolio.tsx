@@ -1,7 +1,7 @@
 import SocialMedia from "./SocialMedia";
 import Navbar from "./Navbar";
 import Name from "./Name";
-import korchie3transback from "../images/korchie3transback.png";
+import korchie4 from "../images/korchie4.png";
 
 export default function Portfolio() {
     return (
@@ -29,7 +29,7 @@ export default function Portfolio() {
                     my time spent using computers and technology to get my job done and desire to take this to the next level.
                 </p>
 
-                <img src={korchie3transback} className="korchie3transback" />
+                <img src={korchie4} className="korchie4" />
 
 
             </div>
@@ -37,7 +37,7 @@ export default function Portfolio() {
             <div className="edContainer">
 
                 <h2 className="edTitle">
-                    Eduction:
+                    Education:
                 </h2>
 
                 <dl>

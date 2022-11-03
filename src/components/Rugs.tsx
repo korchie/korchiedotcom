@@ -13,6 +13,7 @@ import zamboni from "../images/rugs/zamboni.jpg";
 import SocialMedia from "./SocialMedia";
 import Navbar from "./Navbar";
 import Name from "./Name";
+import RugCarousel from "./RugCarousel";
 
 export default function Rugs() {
     return (
@@ -26,9 +27,11 @@ export default function Rugs() {
 
             <p>Here are some of the rugs I've already made!</p>
 
+            <RugCarousel />
+
             <table>
 
-                <td><img src={zamboni} /></td>
+                {/* <td><img src={zamboni} /></td>
                 <td><img src={supernatural} /></td>
                 <td><img src={wat} /></td>
                 <tr></tr>
@@ -41,13 +44,13 @@ export default function Rugs() {
                 <td><img src={snorlax} /></td>
                 <tr></tr>
                 <td><img src={redwings} /></td>
-                <td><img src={magikarp} /></td>
+                <td><img src={magikarp} /></td> */}
                 {/* <td><img src={pikachu} /></td> */}
 
             </table>
 
             <SocialMedia />
 
-        </div>
+        </div >
     )
 }

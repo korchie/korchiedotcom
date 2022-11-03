@@ -5,10 +5,12 @@
 body {
     /* background: #312244; */
     background: rgb(0, 100, 102);
-    background: linear-gradient(0deg, rgba(0, 100, 102, 1) 0%, rgba(33, 47, 69, 1) 35%, rgba(77, 25, 77, 1) 100%);
-    background-size: cover;
-    font-family: "Play", sans-serif;
-    ;
+    background: linear-gradient( 0deg, rgba(0, 100, 102, 1) 0%, rgba(33, 47, 69, 1) 35%, rgba(77, 25, 77, 1) 100%);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size:auto; */
+    /* font-family: "Play", sans-serif; */
 }
 
 h1 {
@@ -21,6 +23,7 @@ h1 {
 p {
     color: white;
     font-size: 4vh;
+    font-family: "Play", sans-serif;
 }
 
 a {
@@ -41,6 +44,31 @@ h2 {
     padding: 10px;
 }
 
+.socialLinks img {
+    width: 5vh;
+    border-radius: 0;
+}
+
+.linkedInLogo {
+    background: white;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 300px;
+}
+
+.gitHubLogo {
+    height: max-content
+}
+
+.instagramLogo {
+    margin-right: 300px;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    color: white;
+}
+
 .logo {
     display: flex;
     justify-content: space-evenly;
@@ -58,6 +86,20 @@ h2 {
     background: #065a60;
     border-radius: 50%;
 }
+
+/* .k {
+    font-family: 'Lakki Reddy', cursive;
+    font-weight: 1000;
+    color: black;
+    background: #065a60;
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+} */
 
 .name {
     font-size: 10vh;
@@ -90,6 +132,12 @@ table img {
 .mainlinks a {
     /* color: white; */
     font-family: "Amatic SC", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.mainlinks a:hover {
+    color: #4d194d;
 }
 
 
@@ -147,11 +195,13 @@ img {
 .ed {
     margin-left: 20px;
     font-size: 25px;
+    color: #312244;
 }
 
 .projectsTitle {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 25px;
+    color: #006466;
 }
 
 .projects {
@@ -159,9 +209,14 @@ img {
     margin-left: 75px;
 }
 
+.projects a {
+    color: white;
+}
+
 .skillsTitle {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 25px;
+    color: #006466;
 }
 
 .skills {
@@ -174,12 +229,16 @@ img {
 }
 
 .edContainer {
-    background-color: lightslategray;
     opacity: 90%;
+    background: rgb(141, 144, 144);
+    background: linear-gradient(180deg, rgba(141, 144, 144, 1) 0%, rgba(145, 145, 145, 0.9699230033810399) 35%, rgba(78, 78, 78, 0.8942927512801996) 100%);
     width: fit-content;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
 .containerAboveEd {
@@ -190,6 +249,55 @@ img {
     width: 50%;
     height: 50%;
 }
+
+/* .d-block {
+    height: 400px;
+} */
+
+/* .carouselContainer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* working on this */
+/* .carouselContainer {
+    width: max-content;
+    height: 20vh;
+} */
+
+.carousel img {
+    height: 20vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+    .carousel {
+        width: auto;
+        height: auto;
+    }
+}
+
+.emailContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.emailContact a {
+    color: rgb(141, 144, 144);
+}
+
+.carousel-indicators {
+    bottom: -38px;
+}
+
 
 /*  ~~~~~~~~~~~ colors ~~~~~~~~~~~~~~~~~~~~ */
 /* 
@@ -212,8 +320,11 @@ top: 0vh;
 left: 2vh;
 } */
 
+
+
 /* mobile view */
 @media only screen and (max-width: 768px) {
+
 
 body {
     font-size: 4vh;
@@ -233,9 +344,15 @@ body {
     align-items: center;
     /* font-size: 3vh; */
     padding-top: 0;
-    margin-top: 50px;
+    margin-top: 64px;
+    margin-bottom: 20px;
+    font-size: 40px;
 }
 
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 
 /* .name {
@@ -246,11 +363,11 @@ body {
 .korchie2transback {
     display: flex;
     align-items: center;
-    width: 54vw;
+    width: 75vw;
 }
 
-.korchie3transback {
-    width: 54vw;
+.korchie4 {
+    width: 75vw;
     margin-top: 20px;
 }
 
@@ -259,8 +376,6 @@ body {
     flex-direction: column-reverse;
     align-items: center;
 }
-
-
 
 .mainlinks {
     list-style-type: none;
@@ -278,7 +393,6 @@ body {
     align-items: center;
 }
 
-
 .amContainer {
     display: flex;
     flex-direction: column;
@@ -286,6 +400,39 @@ body {
 
 .edContainer {
     flex-direction: column;
+}
+
+.d-block {
+    height: auto;
+    width: 93vw;
+}
+
+.sk_transBack {
+    height: auto;
+    width: 70vw;
+}
+
+.carousel img {
+    height: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gitHubLogo {
+    /* padding-right: 15px; */
+    padding-left: 15px;
+}
+
+.socialLinks {
+    align-items: center;
+}
+
+.socialLinks img {
+    width: 100px;
+}
+
+.instagramLogo {
+    padding-left: 15px;
 }
 
 }
@@ -310,6 +457,11 @@ body {
         font-size: 40px;
         border-top: solid #1b3a4b;
         border-bottom: solid #1b3a4b;
+        margin-top: 10px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
     }
 
     .mainlinks a {
@@ -336,6 +488,13 @@ body {
         width: 50%;
         height: 50%;
     }
+
+    .korchie4 {
+        width: 50%;
+        height: 50%;
+    }
+
+
 
    
 

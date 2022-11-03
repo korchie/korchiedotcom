@@ -11,9 +11,12 @@ export default function ContactMe() {
             {/* <a href="/">Back</a> */}
             <Name />
             <Navbar />
+            <div className="emailContact">
 
-            <p>Contact me via email at:</p>
-            <p>stephanie.korch@gmail.com</p>
+                <p>Contact me via email at:</p>
+                <p><a href="mailto:stephanie.korch@gmail.com">stephanie.korch@gmail.com</a></p>
+
+            </div>
 
             <SocialMedia />
 

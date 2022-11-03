@@ -8,6 +8,7 @@ export default function Name() {
 
 
             <img src={skcircle} className="skcircle" />
+            {/* <p className="k">K</p> */}
             <h1 className="name">Stephanie Korch</h1>
 
 

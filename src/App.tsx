@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Portfolio from './components/Portfolio';
 import Rugs from './components/Rugs';
 import ContactMe from './components/ContactMe';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
