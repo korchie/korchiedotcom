@@ -23,9 +23,13 @@ export default function Rugs() {
             <Name />
             <Navbar />
 
-            <p>I make custom, handmade rugs in my free time!</p>
+            <div className="rugsBlerb">
 
-            <p>Here are some of the rugs I've already made!</p>
+                <p>I make custom, handmade rugs in my free time!</p>
+
+                <p>Here are some of the rugs I've already made!</p>
+
+            </div>
 
             <RugCarousel />
 
