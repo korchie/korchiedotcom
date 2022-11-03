@@ -21,7 +21,7 @@ export default function AboutMe() {
                     <img src={sk_transBack} className="sk_transBack" />
                     <div className="amContainer3">
 
-                        <p>I'm a recent graduate of a coding bootcamp by Grand Circus based out of Detroit, MI. There, I learned JavaScript in a full-stack methodology. I enjoy the front-end the most and have an interest in UI and UX approaches to products and designs. I have confidence in using React. I have additionally worked with TypeScript, HTML, CSS, Express & APIs, Firebase, and MongoDB & SQL.</p>
+                        <p>I'm a recent graduate of the Grand Circus coding bootcamp based out of Detroit, MI. There, I learned JavaScript in a full-stack methodology. I enjoy the front-end the most and have an interest in UI and UX approaches to products and designs. I have confidence in using React. I have additionally worked with TypeScript, HTML, CSS, Express & APIs, Firebase, and MongoDB & SQL.</p>
 
 
                         <div className="amContainer4">
