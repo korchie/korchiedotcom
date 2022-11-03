@@ -7,9 +7,9 @@ export default function Name() {
 
 
 
-            <img src={skcircle} className="skcircle" />
+            <a href="/"><img src={skcircle} className="skcircle" /></a>
             {/* <p className="k">K</p> */}
-            <h1 className="name">Stephanie Korch</h1>
+            <a href="/" className="nameLink"><h1 className="name">Stephanie Korch</h1></a>
 
 
 

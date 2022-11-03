@@ -44,20 +44,34 @@ h2 {
     padding: 10px;
 }
 
-.socialLinks img {
-    width: 5vh;
+.linkedInLogo {
+    width: 50px;
     border-radius: 0;
 }
 
+.instagramLogo {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.gitHubLogo {
+    height: 40px;
+    padding-top: 5px;
+}
+
 .linkedInLogo {
-    /* background: white; */
+    background: white;
     padding: 3px;
     border-radius: 5px;
     margin-left: 300px;
 }
 
-.gitHubLogo {
+/* .gitHubLogo {
     height: max-content
+} */
+
+.gitHubLogo img {
+    height: 100px;
 }
 
 .instagramLogo {
@@ -103,6 +117,10 @@ h2 {
 
 .name {
     font-size: 10vh;
+}
+
+.nameLink {
+    text-decoration: none;
 }
 
 .mainBlerb {
@@ -278,7 +296,7 @@ img {
 }
 
 .carousel {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 @media (max-width: 900px) {
@@ -292,8 +310,8 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 350px;
 }
 
 .emailContact a {
@@ -305,14 +323,17 @@ img {
 }
 
 .rugsBlerb {
-    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .rugOrder {
     color: rgb(141, 144, 144);
     font-style: italic;
     font-size: 21px;
-    margin-left: 50px;
 }
 
 
@@ -348,7 +369,7 @@ body {
 }
 
 .name {
-    font-size: 5vh;
+    font-size: 5.5vh;
 }
 
 /* .skcircle {
@@ -380,10 +401,11 @@ p {
 .korchie2transback {
     display: flex;
     align-items: center;
+    width: 400px;
 }
 
 .korchie4 {
-    width: 75vw;
+    width: 400px;
     margin-top: 20px;
 }
 
@@ -426,7 +448,8 @@ p {
 
 .sk_transBack {
     height: auto;
-    width: 70vw;
+    width: 300px;
+    margin-bottom: 30px;
 }
 
 .carousel img {
@@ -438,10 +461,13 @@ p {
 .gitHubLogo {
     /* padding-right: 15px; */
     padding-left: 15px;
+    height: 4vh;
+    width: auto;
 }
 
 .socialLinks {
     align-items: center;
+    align-self: flex-end;
 }
 
 .socialLinks img {
@@ -450,6 +476,10 @@ p {
 
 .instagramLogo {
     padding-left: 15px;
+}
+
+.emailContact {
+    margin-bottom: 100px;
 }
 
 }
