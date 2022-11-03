@@ -372,7 +372,6 @@ p {
 .korchie2transback {
     display: flex;
     align-items: center;
-    width: 75vw;
 }
 
 .korchie4 {
@@ -495,8 +494,8 @@ p {
     }
 
     .korchie2transback {
-        width: 50%;
-        height: 50%;
+        width: 600px;
+        height: 666.66px;
     }
 
     .korchie4 {
