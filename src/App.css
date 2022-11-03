@@ -526,7 +526,6 @@ p {
     height: auto;
     width: 300px;
     /* height: 477px; */
-    /* margin-bottom: 30px; */
 }
 
 .carousel img {
@@ -557,10 +556,6 @@ p {
 
 .emailContact {
     margin-bottom: 100px;
-}
-
-.homepageWords {
-    margin-bottom: 50px;
 }
 
 }
