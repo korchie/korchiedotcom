@@ -29,6 +29,8 @@ export default function Rugs() {
 
                 <p>Here are some of the rugs I've already made!</p>
 
+                <p className="rugOrder">Please contact me if you have interest in a custom rug order!</p>
+
             </div>
 
             <RugCarousel />
