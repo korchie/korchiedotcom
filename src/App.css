@@ -228,6 +228,7 @@ table img {
 .sk_transBack {
     border-radius: 8px;
     margin-left: 30px;
+    height: 577px;
 }
 
 .amContainer {
@@ -523,7 +524,7 @@ p {
 }
 
 .sk_transBack {
-    height: auto;
+    /* height: 577px; */
     width: 300px;
     /* height: 477px; */
 }
