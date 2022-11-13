@@ -15,11 +15,34 @@ import SocialMedia from "./SocialMedia";
 import Navbar from "./Navbar";
 import Name from "./Name";
 import crx from "../images/rugs/crx.jpg";
+import mermaid from "../images/rugs/mermaid.jpg";
 
 function IndividualIntervalsExample() {
     return (
         <div className='carouselContainer'>
             <Carousel fade>
+                <Carousel.Item interval={5000}>
+                    <img
+                        className="d-block"
+                        src={mermaid}
+                        alt="Mermaid rug"
+                    />
+                    {/* <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption> */}
+                </Carousel.Item>
+                <Carousel.Item interval={5000}>
+                    <img
+                        className="d-block"
+                        src={zamboni}
+                        alt="Zamboni rug"
+                    />
+                    {/* <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption> */}
+                </Carousel.Item>
                 <Carousel.Item interval={5000}>
                     <img
                         className="d-block"

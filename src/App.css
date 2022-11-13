@@ -178,6 +178,11 @@ table img {
 
 .amContainer2 {
     display: flex;
+    align-items: flex-start;
+}
+
+.amContainer2 img {
+    height: 577px;
 }
 
 .amContainer4 {
@@ -229,6 +234,7 @@ table img {
     border-radius: 8px;
     margin-left: 30px;
     height: 577px;
+    width: auto;
 }
 
 .amContainer {
