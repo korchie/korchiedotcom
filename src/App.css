@@ -163,7 +163,44 @@ table img {
     width: 50vw;
     /* margin-left: 50%;
     margin-top: -80px; */
+}
 
+.korchieKrittersLogo {
+    width: 30vw;
+    border-radius: 0;
+    padding-right: 100px;
+}
+
+.container2 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    
+}
+
+.container2 a {
+    text-decoration: none;
+}
+
+.container2 h1 {
+    text-shadow: -.5px -.5px 0 #fff, .5px -.5px 0 #fff, -.5px .5px 0 #fff, .5px .5px 0 #fff;
+    font-family: "Mynerve", cursive;
+    /* text-shadow: none; */
+    font-weight: 1000;
+
+}
+
+.container2 h2 {
+    color: white;
+    font-family: "Mynerve", cursive;
+}
+
+.kKLogoContainer {
+    display: flex;
+    align-items: flex-end;
 }
 
 .motorcyclePic {
@@ -565,7 +602,19 @@ p {
     margin-bottom: 100px;
 }
 
+.container2 {
+    font-size: 40px;
 }
+
+.korchieKrittersLogo {
+    width: 400px;
+}
+
+
+}
+
+
+
 
 /* desktop view */
 @media only screen and (min-width: 768px) {
@@ -622,10 +671,6 @@ p {
     .korchie4 {
         width: 50%;
         height: 50%;
-    }
-
-
-
-   
+    }   
 
 }

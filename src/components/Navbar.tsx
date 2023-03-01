@@ -22,6 +22,9 @@ export default function Navbar() {
                             <Link to="/portfolio">Portfolio</Link>
                         </li>
                         <li>
+                            <a href="https://korchiekritters.etsy.com/">My Etsy Shop</a>
+                        </li>
+                        <li>
                             <Link to="/rugs">My Handmade Rugs</Link>
                         </li>
                         <li>
