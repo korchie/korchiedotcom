@@ -11,6 +11,8 @@ body {
     background-attachment: fixed;
     /* background-size:auto; */
     /* font-family: "Play", sans-serif; */
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 h1 {
@@ -44,11 +46,6 @@ h2 {
     padding: 10px;
 }
 
-.linkedInLogo {
-    width: 50px;
-    border-radius: 0;
-}
-
 .instagramLogo {
     width: 50px;
     border-radius: 5px;
@@ -64,11 +61,10 @@ h2 {
     padding: 3px;
     border-radius: 5px;
     margin-left: 300px;
+    width: 50px;
+    border-radius: 0;
 }
 
-/* .gitHubLogo {
-    height: max-content
-} */
 
 .gitHubLogo img {
     height: 100px;
@@ -88,7 +84,7 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
     justify-content: center;
-    margin-bottom: -45px;
+    margin-bottom: 10px;
 }
 
 .skcircle {
@@ -137,38 +133,49 @@ table img {
     height: auto;
 }
 
-
-
+/* new .topNav code: */
 .topNav {
     background: #0b525b;
-    color: white;
-    /* display: flex; */
-    padding-top: 10px;
-
 }
 
-.mainlinks a {
-    /* color: white; */
-    font-family: "Amatic SC", sans-serif;
+.topNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topNav li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.topNav a {
     text-decoration: none;
     color: white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 40px;
+    display: block;
+    padding: 10px;
 }
 
-.mainlinks a:hover {
+.topNav a:hover {
     color: #4d194d;
 }
 
 
 .korchie2transback {
-    width: 50vw;
-    /* margin-left: 50%;
-    margin-top: -80px; */
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
 }
+
 
 .korchieKrittersLogo {
     width: 30vw;
+    max-width: 400px;
     border-radius: 0;
-    padding-right: 100px;
 }
 
 .container2 {
@@ -176,7 +183,6 @@ table img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 30px;
     padding-bottom: 100px;
     
 }
@@ -270,8 +276,8 @@ table img {
 .sk_transBack {
     border-radius: 8px;
     margin-left: 30px;
-    height: 577px;
-    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .amContainer {
@@ -355,6 +361,12 @@ img {
     margin-top: 33.2px;
 }
 
+.containerAboveEd {
+    display: flex;
+    flex-shrink: 0;
+    align-items: flex-start;
+}
+
 .edContainer {
     /* opacity: 90%; */
     /* background: rgba(141, 144, 144, 0.5); */
@@ -368,9 +380,7 @@ img {
     padding: 10px;
 }
 
-.containerAboveEd {
-    display: flex;
-}
+
 
 .korchie3transback {
     width: 50%;
@@ -471,6 +481,8 @@ left: 2vh;
 
 body {
     font-size: 4vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .name {
@@ -481,15 +493,12 @@ body {
     width: 10vw;
 } */
 
-.topNav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* font-size: 3vh; */
-    padding-top: 0;
-    margin-top: 64px;
-    margin-bottom: 20px;
-    font-size: 40px;
+.topNav ul {
+    flex-wrap: wrap;
+}
+
+.topNav li {
+    flex-basis: 50%;
 }
 
 p {
@@ -503,15 +512,13 @@ p {
     justify-content: center;
 } */
 
-.korchie2transback {
-    display: flex;
-    align-items: center;
-    width: 400px;
-}
+
 
 .korchie4 {
-    width: 400px;
-    margin-top: 20px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .containerAboveEd {
@@ -566,11 +573,7 @@ p {
     width: 93vw;
 }
 
-.sk_transBack {
-    /* height: 577px; */
-    width: 300px;
-    /* height: 477px; */
-}
+
 
 .carousel img {
     height: 70%;
@@ -604,11 +607,25 @@ p {
 
 .container2 {
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .korchieKrittersLogo {
     width: 400px;
+    padding-right: 0;
 }
+
+.homepageBlerb {
+    font-size: 5.5vh;
+}
+
+.container2 h2 {
+    font-size: 25px;
+}
+
 
 
 }
@@ -617,7 +634,7 @@ p {
 
 
 /* desktop view */
-@media only screen and (min-width: 768px) {
+@media only screen and (m-width: 768px) {
     /* .topNav {
         position: fixed;
         top: 1vh;
@@ -628,49 +645,28 @@ p {
         padding: 1.5vh;
     } */
 
-    .mainlinks {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-around;
-        padding: 7px 7px;
-        font-size: 40px;
-        border-top: solid #1b3a4b;
-        border-bottom: solid #1b3a4b;
-        margin-top: 10px;
-    }
-
     .logo {
         margin-bottom: 20px;
     }
 
-    .mainlinks a {
-        text-decoration: none;
-    }
-/* 
-    .sk_transBack {
-        width: 40vw;
-        display: block;
-        margin-left: 30px;
-        margin-right: auto;
-    } */
+
 
     .amBlerb {
         margin-top: 55px;
     }
 
-    .topNav {
-        padding-top: 0px;
-        padding-bottom: 0px;
+
+
+
+
+
+    .korchieKrittersLogo {
+        padding-right: 100px;
     }
 
     .korchie2transback {
-        width: 600px;
-        height: 666.66px;
+        width: 75%;
+        height: 75%;
     }
-
-    .korchie4 {
-        width: 50%;
-        height: 50%;
-    }   
 
 }

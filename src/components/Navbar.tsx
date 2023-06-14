@@ -11,7 +11,7 @@ export default function Navbar() {
 
             <div>
                 <nav>
-                    <ul className="mainlinks">
+                    <ul>
                         <li>
                             <Link to="/">Home</Link>
                         </li>

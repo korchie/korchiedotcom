@@ -22,6 +22,7 @@ export default function Portfolio() {
 
             <div className="containerAboveEd">
 
+
                 <p className="portfolioBlerb">
                     I am looking to change my career path and pursue a position as a Full-Stack JavaScript Developer. I have always had a
                     passion for technology and am extremely excited to move in the direction of the tech industry. I recently graduated from
