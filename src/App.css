@@ -494,6 +494,7 @@ body {
 
 .topNav ul {
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .topNav li {
