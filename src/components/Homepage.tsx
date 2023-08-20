@@ -22,12 +22,14 @@ export default function Homepage() {
             </div>
 
             <div className="container2">
-                <a href="https://korchiekritters.etsy.com/">
-                    <h1>Check out my Etsy Shop!</h1>
-                    <h2>All T-shirts & Stickers designed by me!</h2>
+                <a href="https://korchiekritters.square.site/">
+                    <div className="etsyWords">
+                        <h1>Check out my Store!</h1>
+                        <h2>I sell T-Shirts, Stickers, and Toys!</h2>
+                    </div>
                 </a>
                 <div className="kKLogoContainer">
-                    <a href="https://korchiekritters.etsy.com/">
+                    <a href="https://korchiekritters.square.site/">
                         <img src={korchieKrittersLogo} className="korchieKrittersLogo" alt="Korchie Kritters Logo" />
                     </a>
                 </div>
