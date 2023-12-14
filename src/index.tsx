@@ -25,16 +25,6 @@ reportWebVitals();
 
 // google analytics stuff
 
-const firebaseConfig = {
-  apiKey: "AIzaSyA_vGHMfs-TkQ3p85q05axwVChHIn8CgME",
-  authDomain: "korchiedotcom.firebaseapp.com",
-  projectId: "korchiedotcom",
-  storageBucket: "korchiedotcom.appspot.com",
-  messagingSenderId: "884678409656",
-  appId: "1:884678409656:web:5f11d99bec53b218f7e34d",
-  measurementId: "G-052BQLFZQT"
-};
+
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
