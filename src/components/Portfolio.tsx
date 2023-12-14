@@ -25,9 +25,7 @@ export default function Portfolio() {
 
                 <p className="portfolioBlerb">
                     I am looking to change my career path and pursue a position as a Full-Stack JavaScript Developer. I have always had a
-                    passion for technology and am extremely excited to move in the direction of the tech industry. I recently graduated from
-                    Grand Circus' coding program and was a Rocket Pro TPO Executive Title Coordinator with Rocket Mortgage. I really enjoyed
-                    my time spent using computers and technology to get my job done and desire to take this to the next level.
+                    passion for technology and am extremely excited to move in the direction of the tech industry!
                 </p>
 
                 <img src={korchie4} className="korchie4" />
