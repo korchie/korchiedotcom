@@ -271,6 +271,10 @@ table img {
 
 h1.store {
     font-family: 'Open Sans', sans-serif;
+    color: yellow;
+    /* text-shadow: none; */
+    text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
+    font-weight: 600;
 }
 
 h2.store {
