@@ -24,8 +24,8 @@ export default function Homepage() {
             <div className="container2">
                 <a href="https://korchiekritters.square.site/">
                     <div className="etsyWords">
-                        <h1>Check out my Store!</h1>
-                        <h2>I sell T-Shirts, Stickers, and Toys!</h2>
+                        <h1 className="store">Check out my Store!</h1>
+                        <h2 className="store">I sell T-Shirts, Stickers, and Toys!</h2>
                     </div>
                 </a>
                 <div className="kKLogoContainer">

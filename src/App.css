@@ -269,7 +269,13 @@ table img {
     font-size: 50px;
 }
 
+h1.store {
+    font-family: 'Open Sans', sans-serif;
+}
 
+h2.store {
+    font-family: 'Open Sans', sans-serif;
+}
 
 .sk_transBack {
     border-radius: 8px;
