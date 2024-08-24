@@ -206,7 +206,7 @@ table img {
     align-items: center;
     padding-bottom: 100px;
     background: #620a7b7d;
-    width: 50%; /* Adjusts the width to be 80% of the parent container */
+    width: 30%; /* Adjusts the width to be 80% of the parent container */
     margin: 0 auto; /* Centers the div horizontally */
     box-sizing: border-box; /* Includes padding and border in the element's total width */
     border-radius:  70px;
