@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import SocialMedia from "./SocialMedia"
 import korchie2transback from "../images/korchie2transback.png";
 import korchieKrittersLogo from "../images/KorchieKritters logo.png";
+import korchieNPreshNew2 from "../images/korchieNPreshNew2.png";
 
 export default function Homepage() {
     return (
@@ -11,7 +12,7 @@ export default function Homepage() {
             <Navbar />
 
             <div className="homepageContainer">
-                <img src={korchie2transback} className="korchie2transback" />
+                <img src={korchieNPreshNew2} className="korchie2transback" />
                 <div className="homepageWords">
                     <p className="homepageBlerb">
                         Hello, I'm Stephanie! I'm a Full-Stack JavaScript Developer.

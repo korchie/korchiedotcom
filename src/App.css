@@ -1,6 +1,9 @@
-/* html {
-    height: fit-content;
-} */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 body {
     /* background: #312244; */
@@ -61,6 +64,11 @@ h2 {
     align-items: center;
     gap: 5px;
     padding: 10px;
+}
+
+.socialLinks img {
+    height: 30px;
+    width: auto;
 }
 
 .instagramLogo {
@@ -193,9 +201,10 @@ table img {
 
 
 .korchie2transback {
-    margin: 0 auto;
+    margin: 20px;
     width: 40%;
     height: 40%;
+    transform: scaleX(-1);
 }
 
 
@@ -257,12 +266,6 @@ table img {
     align-items: center;
 }
 
-.amContainer2 p {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-
 .amContainer4 {
     display: flex;
 }
@@ -283,7 +286,6 @@ table img {
 .amContainer3 {
     margin-left: 20px;
     margin-right: 20px;
-    /* margin-top: 30px; */
 }
 
 .hobbiesBlerb {
@@ -380,7 +382,7 @@ img {
 }
 
 .edTitle {
-    margin-left: 0;
+    margin-left: 5px;
     /* margin-top: -180px; */
     color: #006466;
     font-weight: 700;
@@ -402,6 +404,7 @@ img {
 .projectsTitle {
     margin-top: 20px;
     margin-right: 100px;
+    margin-left: 5px;
     font-size: 35px;
     color: #006466;
     font-weight: 700;
@@ -412,7 +415,7 @@ img {
     font-size: 20px;
     margin-left: 75px;
     font-weight: 500;
-    color: white;
+    /* color: white; */
 }
 
 .projects a {
@@ -421,6 +424,7 @@ img {
 
 .skillsTitle {
     margin-top: 20px;
+    margin-left: 5px;
     font-size: 35px;
     color: #006466;
     font-weight: 700;
@@ -431,7 +435,7 @@ img {
     font-size: 20px;
     margin-left: 75px;
     font-weight: 500;
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 
 .wsu {
@@ -460,7 +464,21 @@ img {
     padding: 10px;
 }
 
+.topEdContainer {
+    display: flex;
+    justify-content: space-between;
+}
 
+.korchie4 {
+    width: 100%;  /* Set width to 100% of its parent */
+    height: auto;  /* Auto height to maintain aspect ratio */
+    max-width: 300px; /* Limit the maximum width */
+    margin-right: 20px;
+}
+
+.gcEnd {
+    margin-bottom: 20px;
+}
 
 .korchie3transback {
     width: 50%;
@@ -533,6 +551,9 @@ img {
     margin-bottom: 50px;
 }
 
+.korchieNPreshNew3 {
+    width: 40%;
+}
 
 /*  ~~~~~~~~~~~ colors ~~~~~~~~~~~~~~~~~~~~ */
 /* 
@@ -603,7 +624,6 @@ p {
     height: auto;
     max-width: 300px;
     max-height: 100%;
-
 }
 
 .containerAboveEd {
@@ -635,7 +655,10 @@ p {
 }
 
 .amContainer2 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .amContainer3 {
@@ -643,20 +666,16 @@ p {
 }
 
 .amContainer5 {
-    display: block;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin-left: 2vw;
+    margin-right: 2vw; */
 }
 
-.motorcyclePic {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
 
 .korchieMotorcycle {
     width: 90%;
+    margin-bottom: 10px;
 }
 
 .edContainer {
@@ -689,6 +708,7 @@ p {
 
 .socialLinks img {
     width: 20vw;
+    height: auto;
 }
 
 .instagramLogo {
@@ -750,6 +770,10 @@ p {
     margin-top: 0px;
 }
 
+.topEdContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .containerAboveEd {
@@ -760,6 +784,17 @@ p {
     margin-left: 20px;
 }
 
+
+
+/* .korchie4 {
+    max-width: 90vw; 
+    height: auto; 
+    margin-right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+} */
+
+}
 
 /* desktop view */
 @media only screen and (m-width: 768px) {
@@ -781,6 +816,11 @@ p {
 
     .amBlerb {
         margin-top: 55px;
+    }
+
+    .amContainer2 p {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 
