@@ -52,7 +52,7 @@ export default function Portfolio() {
                         {/* <ul> */}
                         <dt className="ed">Wayne State University</dt>
                         <dt className="ed">Detroit, MI</dt>
-                        <dt className="ed">Bachelor of Arts, Sociology</dt>
+                        <dt className="ed">Bachelor of Arts</dt>
                         <dt className="ed">August 2007 - December 2009</dt>
                         {/* </ul> */}
 
