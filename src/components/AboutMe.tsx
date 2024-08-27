@@ -25,7 +25,7 @@ export default function AboutMe() {
 
                         {/* <p>I'm a graduate of the Grand Circus coding bootcamp based out of Detroit, MI. There, I learned JavaScript in a full-stack methodology. I enjoy front-end the most and have an interest in UI and UX approaches to products and designs. I have confidence in using React. I have additionally worked with TypeScript, HTML, CSS, Express & APIs, Firebase, and MongoDB & SQL.</p> */}
                         <p>
-                            I'm a freelance web developer based in Southern Ohio.  I specialize in React with JavaScript. Check out my <a href="">Portfolio page</a> for specifics!
+                            I'm a freelance web developer based in Southern Ohio.  I specialize in React with JavaScript. Check out my <a href="/portfolio">Portfolio page</a> for specifics!
                         </p>
 
 
@@ -54,7 +54,7 @@ export default function AboutMe() {
 
 
                 </div>
-                <KorchieCarousel />
+                {/* <KorchieCarousel /> */}
 
             </div>
 

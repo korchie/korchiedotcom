@@ -274,7 +274,6 @@ table img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .amContainer5 p {
@@ -466,7 +465,7 @@ img {
 
 .topEdContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .korchie4 {
@@ -668,8 +667,6 @@ p {
 .amContainer5 {
     display: flex;
     flex-direction: column-reverse;
-    /* margin-left: 2vw;
-    margin-right: 2vw; */
 }
 
 
@@ -786,13 +783,14 @@ p {
 
 
 
-/* .korchie4 {
-    max-width: 90vw; 
-    height: auto; 
-    margin-right: 0; 
-    margin-left: auto; 
-    margin-right: auto;
-} */
+.korchie4 {
+  margin-right: 0;
+}
+
+.korchieNPreshNew3 {
+    width: 300px;
+    height: auto;
+}
 
 }
 
@@ -823,6 +821,9 @@ p {
         margin-right: 20px;
     }
 
+    .amContainer5 {
+        margin-bottom: 50px;
+    }
 
 
     .korchieKrittersLogo {

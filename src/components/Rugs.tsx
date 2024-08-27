@@ -34,7 +34,7 @@ export default function Rugs() {
 
             <RugCarousel />
 
-            <p className="rugOrder">Please contact me if you have interest in a custom rug order!</p>
+            {/* <p className="rugOrder">Please contact me if you have interest in a custom rug order!</p> */}
             <table>
 
                 {/* <td><img src={zamboni} /></td>
