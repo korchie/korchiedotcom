@@ -345,7 +345,7 @@ h2.store {
 }
 
 .korchieMotorcycle {
-    width: 90%;
+    width: 45%;
     display: block;
     margin: 0 auto; /*centers the image horizontally*/
 }
@@ -633,6 +633,10 @@ p {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.korchieMotorcycle {
+    width: 90%;
 }
 
 .edContainer {
