@@ -38,10 +38,7 @@ export default function AboutMe() {
 
 
                     </div>
-                </div>
 
-                <div>
-                    <img src={korchieMotorcycle} className="korchieMotorcycle" />
                 </div>
 
                 <div className="amContainer5">
@@ -52,6 +49,7 @@ export default function AboutMe() {
                     <p>
                         When I'm not working, I enjoy playing Fortnite and Baldur's Gate. I love hockey and baseball and cheer for the Detroit Red Wings, Tigers (and Lions too!). I am a retired hockey player. I have a KTM 390 Adventure motorcycle, which I've ridden cross-country. Other hobbies include: 3D printing, being an at-home barista, and listening to rock music. I have 2 cats; Precious and Baldur.
                     </p>
+                    <img src={korchieMotorcycle} className="korchieMotorcycle" />
                     {/* <img src={motorcyclepic} className="motorcyclePic" /> */}
 
 
