@@ -166,17 +166,17 @@ function IndividualIntervalsExample() {
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption> */}
                 </Carousel.Item>
-                <Carousel.Item interval={5000}>
+                {/* <Carousel.Item interval={5000}>
                     <img
                         className="d-block"
                         src={michelepeony}
                         alt="Michele Peony Rug"
-                    />
-                    {/* <Carousel.Caption>
+                    /> */}
+                {/* <Carousel.Caption>
                     <h3>First slide label</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption> */}
-                </Carousel.Item>
+                {/* </Carousel.Item> */}
             </Carousel>
         </div>
     );

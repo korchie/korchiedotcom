@@ -58,6 +58,8 @@ h2 {
     font-size: 2vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 5px;
     padding: 10px;
 }
 
@@ -76,19 +78,23 @@ h2 {
     background: white;
     padding: 3px;
     border-radius: 5px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     width: 50px;
     border-radius: 0;
 }
 
+.tikTokLogo {
+    width: 50px;
+}
 
-.gitHubLogo img {
+
+/* .gitHubLogo img {
     height: 100px;
 }
 
 .instagramLogo {
     margin-right: 300px;
-}
+} */
 
 .socialLinks a {
     text-decoration: none;
@@ -206,7 +212,7 @@ table img {
     align-items: center;
     padding-bottom: 100px;
     background: #620a7b7d;
-    width: 30%; /* Adjusts the width to be 80% of the parent container */
+    width: 40%; /* Adjusts the width to be 80% of the parent container */
     margin: 0 auto; /* Centers the div horizontally */
     box-sizing: border-box; /* Includes padding and border in the element's total width */
     border-radius:  70px;
@@ -322,8 +328,9 @@ h2.store {
 .sk_transBack {
     border-radius: 8px;
     margin-left: 30px;
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    width: 25%;
+    /* height: auto; */
 }
 
 .amContainer {
@@ -335,6 +342,12 @@ h2.store {
 
 .motorcyclePic {
     height: 577px;
+}
+
+.korchieMotorcycle {
+    width: 90%;
+    display: block;
+    margin: 0 auto; /*centers the image horizontally*/
 }
 
 .portfolioBlerb {

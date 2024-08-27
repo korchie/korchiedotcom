@@ -47,6 +47,17 @@ export default function Portfolio() {
                         <dt className="gc">May 2021 - November 2021</dt>
                     </div>
 
+                    <div className="wsu">
+
+                        {/* <ul> */}
+                        <dt className="ed">Wayne State University</dt>
+                        <dt className="ed">Detroit, MI</dt>
+                        <dt className="ed">Bachelor of Arts, Sociology</dt>
+                        <dt className="ed">August 2007 - December 2009</dt>
+                        {/* </ul> */}
+
+                    </div>
+
                     <dd className="projectsTitle">Projects include:</dd>
                     <dd className="projects"><a href="https://what-s-out-there.web.app/">What's Out There?:</a> Uses React and Firebase. Frontend and backend elements. 4 API calls. Designated Dark Park locator.</dd>
                     <dd className="projects"><u>React API Search Engine:</u> Uses TypeScript and React and Ticketmaster API to locate events in a certain zip code.</dd>
@@ -80,16 +91,6 @@ export default function Portfolio() {
                     </div> */}
 
 
-                    <div className="wsu">
-
-                        {/* <ul> */}
-                        <dt className="ed">Wayne State University</dt>
-                        <dt className="ed">Detroit, MI</dt>
-                        <dt className="ed">Bachelor of Arts, Sociology</dt>
-                        <dt className="ed">August 2007 - December 2009</dt>
-                        {/* </ul> */}
-
-                    </div>
 
 
                     {/* <p className="skillsTitle">Technical Skills:</p> */}

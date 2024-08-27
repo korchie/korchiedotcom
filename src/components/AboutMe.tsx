@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import SocialMedia from "./SocialMedia";
 import Name from "./Name";
 import motorcyclepic from "../images/motorcycleSelfie.jpg";
+import KorchieCarousel from "./KorchieCarousel";
+import korchieMotorcycle from "../images/aboutmepix/korchieMotorcycle.jpg";
 
 export default function AboutMe() {
     return (
@@ -23,19 +25,23 @@ export default function AboutMe() {
 
                         {/* <p>I'm a graduate of the Grand Circus coding bootcamp based out of Detroit, MI. There, I learned JavaScript in a full-stack methodology. I enjoy front-end the most and have an interest in UI and UX approaches to products and designs. I have confidence in using React. I have additionally worked with TypeScript, HTML, CSS, Express & APIs, Firebase, and MongoDB & SQL.</p> */}
                         <p>
-                            I'm a freelance web developer based in Southern Ohio.  I specialize in React with JavaScript. Check out my <a href="">Portfolio page</a> for specifics on my educational background in coding. For my Day Job, I am a Data Associate for a tech company.
+                            I'm a freelance web developer based in Southern Ohio.  I specialize in React with JavaScript. Check out my <a href="">Portfolio page</a> for specifics!
                         </p>
 
 
                         <div className="amContainer4">
                             {/* <p>This is a career change for me, and a really exciting one, as I'm now working in a field I have a passion for! I have a great deal of experience with customer service ranging from retail, email customer support for StockX, phone call center for a major Medicaid health insurance company in Michigan and Illinois. I have also worked at a company that cleans pharmaceutical vials and bottles as the liason between the company and the customer. I have also worked as an Administrative Assistant at a non-profit substance abuse treatment center, which was very near and dear to my heart!</p> */}
                             <p>
-                                Previously I have worked as a Production Assistant for a pharmaceutical sterilization company, where I worked as the liason between the customer and client. I also have experience in the Mortgage industry, email-based customer support, call centers, substance abuse treatment, and retail (12 years!) I am an expert in customer service!
+                                Previously I have worked as a Production Assistant for a pharmaceutical sterilization company. I also have experience in the Mortgage industry, email-based customer support, call centers, substance abuse treatment, and retail (12 years!) I am an expert in customer service!
                             </p>
                         </div>
 
 
                     </div>
+                </div>
+
+                <div>
+                    <img src={korchieMotorcycle} className="korchieMotorcycle" />
                 </div>
 
                 <div className="amContainer5">
@@ -44,11 +50,13 @@ export default function AboutMe() {
                     </p>
 
                     <p>
-                        When I'm not working, I enjoy playing video games. Currently, I am most commonly playing Baldur's Gate and Fortnite. I love hockey and baseball and cheer for the Detroit Red Wings, Tigers (and Lions too!). I am a retired hockey player. I have a motorcycle, a KTM 390 Adventure, which I've ridden cross-country. I am originally from Metro Detroit, MI. Other hobbies include: 3D printing, being an at-home barista, and listening to rock music. My favorite bands include: Billy Talent, Highly Suspect, and Mixed Up Everything. I have 2 cats; Precious and Baldur.
+                        When I'm not working, I enjoy playing Fortnite and Baldur's Gate. I love hockey and baseball and cheer for the Detroit Red Wings, Tigers (and Lions too!). I am a retired hockey player. I have a KTM 390 Adventure motorcycle, which I've ridden cross-country. Other hobbies include: 3D printing, being an at-home barista, and listening to rock music. I have 2 cats; Precious and Baldur.
                     </p>
-                    <img src={motorcyclepic} className="motorcyclePic" />
+                    {/* <img src={motorcyclepic} className="motorcyclePic" /> */}
+
 
                 </div>
+                <KorchieCarousel />
 
             </div>
 
