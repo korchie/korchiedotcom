@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia";
 import Name from "./Name";
 import motorcyclepic from "../images/motorcycleSelfie.jpg";
 import KorchieCarousel from "./KorchieCarousel";
-import korchieMotorcycle from "../images/aboutmepix/korchieMotorcycle.jpg";
+import korchieMotorcycle from "../images/aboutmepix/korchieMotorcycleTransBack.png";
 
 export default function AboutMe() {
     return (
@@ -47,7 +47,7 @@ export default function AboutMe() {
                     </p>
 
                     <p>
-                        When I'm not working, I enjoy playing Fortnite and Baldur's Gate. I love hockey and baseball and cheer for the Detroit Red Wings, Tigers (and Lions too!). I am a retired hockey player. I have a KTM 390 Adventure motorcycle, which I've ridden cross-country. Other hobbies include: 3D printing, being an at-home barista, and listening to rock music. I have 2 cats; Precious and Baldur.
+                        When I'm not working, I enjoy playing Fortnite and Baldur's Gate. I love hockey and baseball and cheer for the Detroit Red Wings, Tigers (and Lions too!). I am a retired hockey player. I have a KTM 390 Adventure motorcycle, which I've ridden cross-country. Other hobbies include: 3D printing, being an at-home barista, and listening to rock music. I have 2 cats; Baldur and Axel.
                     </p>
                     <img src={korchieMotorcycle} className="korchieMotorcycle" />
                     {/* <img src={motorcyclepic} className="motorcyclePic" /> */}

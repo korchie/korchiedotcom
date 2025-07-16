@@ -2,6 +2,7 @@ import Name from "./Name"
 import Navbar from "./Navbar"
 import SocialMedia from "./SocialMedia"
 import korchie2transback from "../images/korchie2transback.png";
+import korchieCompBaldurAxel from "../images/korchieCompBaldurAxel.jpg";
 import korchieKrittersLogo from "../images/KorchieKritters logo.png";
 import korchieNPreshNew2 from "../images/korchieNPreshNew2.png";
 
@@ -12,7 +13,7 @@ export default function Homepage() {
             <Navbar />
 
             <div className="homepageContainer">
-                <img src={korchieNPreshNew2} className="korchie2transback" />
+                <img src={korchieCompBaldurAxel} className="korchie2transback" />
                 <div className="homepageWords">
                     <p className="homepageBlerb">
                         Hello, I'm Stephanie! I'm a Full-Stack JavaScript Developer.
@@ -22,7 +23,7 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div className="container2">
+            {/* <div className="container2">
                 <a href="http://korchiekritters.etsy.com/">
                     <div className="etsyWords">
                         <h1 className="store">Check out my Store!</h1>
@@ -34,7 +35,7 @@ export default function Homepage() {
                         <img src={korchieKrittersLogo} className="korchieKrittersLogo" alt="Korchie Kritters Logo" />
                     </a>
                 </div>
-            </div>
+            </div> */}
 
             <SocialMedia />
         </div>
