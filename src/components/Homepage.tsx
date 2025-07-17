@@ -2,7 +2,7 @@ import Name from "./Name"
 import Navbar from "./Navbar"
 import SocialMedia from "./SocialMedia"
 import korchie2transback from "../images/korchie2transback.png";
-import korchieCompBaldurAxel from "../images/korchieCompBaldurAxel.jpg";
+import korchieCompBaldurAxel from "../images/korchieCompBaldurAxelTransBack.png";
 import korchieKrittersLogo from "../images/KorchieKritters logo.png";
 import korchieNPreshNew2 from "../images/korchieNPreshNew2.png";
 

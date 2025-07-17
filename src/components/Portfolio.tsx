@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Name from "./Name";
 import korchie4 from "../images/korchie4.png";
 import korchieNPreshNew from "../images/korchieNPreshNew.png";
+import korchieBaldurAxel from "../images/korchieBaldurAxel2.png";
 
 export default function Portfolio() {
     return (
@@ -56,7 +57,7 @@ export default function Portfolio() {
                     </div>
 
                 </dl>
-                <img src={korchieNPreshNew} className="korchie4" />
+                <img src={korchieBaldurAxel} className="korchie4" />
             </div>
 
 
