@@ -25,14 +25,16 @@ export default function AboutMe() {
 
                         {/* <p>I'm a graduate of the Grand Circus coding bootcamp based out of Detroit, MI. There, I learned JavaScript in a full-stack methodology. I enjoy front-end the most and have an interest in UI and UX approaches to products and designs. I have confidence in using React. I have additionally worked with TypeScript, HTML, CSS, Express & APIs, Firebase, and MongoDB & SQL.</p> */}
                         <p>
-                            I'm a freelance web developer based in Southern Ohio.  I specialize in React with JavaScript. Check out my <a href="/portfolio">Portfolio page</a> for specifics!
+                            I'm a freelance web developer based in rural, Southern Ohio.  I specialize in React with JavaScript. Check out my <a href="/portfolio">Portfolio page</a> for specifics!
                         </p>
 
 
                         <div className="amContainer4">
                             {/* <p>This is a career change for me, and a really exciting one, as I'm now working in a field I have a passion for! I have a great deal of experience with customer service ranging from retail, email customer support for StockX, phone call center for a major Medicaid health insurance company in Michigan and Illinois. I have also worked at a company that cleans pharmaceutical vials and bottles as the liason between the company and the customer. I have also worked as an Administrative Assistant at a non-profit substance abuse treatment center, which was very near and dear to my heart!</p> */}
                             <p>
-                                Previously I have worked as a Production Assistant for a pharmaceutical sterilization company. I also have experience in the Mortgage industry, email-based customer support, call centers, substance abuse treatment, and retail (12 years!) I am an expert in customer service!
+                                I currently work as a Data Analyst for a tech and data company in the Market Research industry. I am additionally a co-owner of an up-and-coming game store in Kentucky.
+                                I have previously worked as a Production Assistant for a pharmaceutical sterilization company. I have additional experience in the Mortgage industry, email-based customer 
+                                support, worked in inbound & outbound call centers, Administrative Assistant at a Substance Abuse Treatment Center, and Retail Sales & Customer Service.
                             </p>
                         </div>
 
@@ -47,7 +49,9 @@ export default function AboutMe() {
                     </p>
 
                     <p>
-                        When I'm not working, I watching sports. I love hockey and baseball and cheer for the Detroit Red Wings, Tigers (and Lions too!). I am a retired hockey player. I have a KTM 390 Adventure motorcycle, which I've ridden cross-country. Other hobbies include: 3D printing, being an at-home barista, MTG, and listening to rock music. I have 2 cats; Baldur and Axel.
+                        When I'm not working, I enjoy watching sports. Hockey and baseball are my favorites and I cheer for the Detroit Red Wings, Detroit Tigers, and Detroit Lions. I am a retired ice hockey player. 
+                        I have a KTM 390 Adventure motorcycle, which I've ridden cross-country. Other hobbies include: 3D printing, being an at-home barista, MTG, and listening to rock music. I have 2 cats; Baldur 
+                        and Axel.
                     </p>
                     <img src={korchieMotorcycle} className="korchieMotorcycle" />
                     {/* <img src={motorcyclepic} className="motorcyclePic" /> */}

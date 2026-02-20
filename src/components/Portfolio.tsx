@@ -41,11 +41,12 @@ export default function Portfolio() {
                             <dt className="gc">Grand Circus</dt>
                             <dt className="gc">Detroit, MI</dt>
                             <dt className="gc">Full-Stack Javascript Bootcamp</dt>
-                            <dt className="gcEnd">May 2021 - November 2021</dt>
+                            {/* <dt className="gcEnd">May 2021 - November 2021</dt> */}
                         </div>
 
                     </div>
 
+<div><br /></div>
 
 
                     <div>
@@ -53,7 +54,7 @@ export default function Portfolio() {
                         <dt className="ed">Wayne State University</dt>
                         <dt className="ed">Detroit, MI</dt>
                         <dt className="ed">Bachelor of Arts</dt>
-                        <dt className="ed">August 2007 - December 2009</dt>
+                        {/* <dt className="ed">August 2007 - December 2009</dt> */}
                     </div>
 
                 </dl>

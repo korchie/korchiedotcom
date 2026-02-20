@@ -21,11 +21,11 @@ export default function Navbar() {
                         <li>
                             <Link to="/portfolio">Portfolio</Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="https://korchiekritters.etsy.com/">Shop KorchieKritters</a>
-                        </li>
+                        </li> */}
                         <li>
-                            <Link to="/rugs">My Handmade Rugs</Link>
+                            <Link to="/rugs">My Rugs</Link>
                         </li>
                         <li>
                             <Link to="/contactme">Contact  Me</Link>
