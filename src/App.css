@@ -6,8 +6,15 @@ html, body {
 }
 
 body {
-background: #3f0066;
-background: linear-gradient(160deg, rgba(63, 0, 102, 1) 0%, rgba(145, 72, 240, 1) 100%);
+  min-height: 100vh;                    /* better than just height: 100% */
+  background: linear-gradient(160deg, rgba(63, 0, 102, 1) 0%, rgba(145, 72, 240, 1) 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+main, .main-content-wrapper {           /* whatever wraps your content */
+  flex: 1;                              /* grows to fill space */
+}
 
 .ubuntu-light {
   font-family: "Ubuntu", sans-serif;
@@ -55,7 +62,6 @@ background: linear-gradient(160deg, rgba(63, 0, 102, 1) 0%, rgba(145, 72, 240, 1
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: italic;
-}
 }
 
 h1 {
@@ -999,7 +1005,8 @@ p {
 
 .socialLinks {
     align-items: center;
-    align-self: flex-end;
+    align-self: flex-end;      
+    padding: 15px 10px;                     
 }
 
 .socialLinks img {
