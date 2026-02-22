@@ -69,7 +69,7 @@ h1 {
 
 p {
     /* color: #630a7b; */
-    color: black;
+    /* color: black; */
     font-size: 22px;
     /* font-family: "Play", sans-serif; */
     /* font-family: "Shadows Into Light", cursive; */
@@ -297,6 +297,18 @@ table img {
     margin-right: 30px;
 }
 
+.amContainer p,
+.amContainer4 p,
+.amContainer5 p {
+    color: white !important;     /* or #ffffff, or whatever color you want */
+    /* Optional: make text easier to read on dark bg */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+.amContainer3 {
+    margin-top: 20px;
+}
+
 .amContainer2 {
     display: flex;
     align-items: flex-start;
@@ -328,6 +340,127 @@ table img {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 30px;
+}
+
+/* If you want ALL <p> tags on portfolio to match About Me */
+.portfolioContainer p,
+.portfolioBlerb p
+{
+    font-family: "Ubuntu", sans-serif;     /* ← replace with the exact font from About Me */
+    /* or if using your custom class: */
+    /* font-family: "ubuntu-regular", sans-serif; */
+}
+
+.portfolio-container,
+.portfolio-container p,
+.portfolio-container h1,
+.portfolio-container h2,
+.portfolio-container li,
+.portfolio-container span {
+    font-family: "Ubuntu", sans-serif !important;     /* ← match your About Me choice */
+     color: white !important;     /* or #ffffff, or whatever color you want */
+    /* Optional: make text easier to read on dark bg */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+/* Make text white in the .ed section (education/portfolio part) to match About Me */
+.ed,
+.ed p,
+.ed li,
+.ed span,
+.edContainer .ed,
+.portfolio-container .ed,
+.edTitle + .ed {
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);  /* same shadow as About Me for readability */
+}
+
+/* Optional: make sure headings inside .ed also look good */
+.ed h1,
+.ed h2,
+.edTitle {
+    color: #0187a8 !important;   /* or white, depending on your preference */
+}
+
+/* Make Projects and Skills sections match – white text, shadow, consistent layout */
+.projects,
+.skills {
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);   /* readability on gradient bg */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;                           /* better spacing between lines */
+    margin-left: 75px;
+    margin-right: 30px;                         /* prevent text hitting right edge */
+    margin-bottom: 2rem;                        /* breathing room below each block */
+}
+
+/* Titles – make them bold + same color scheme as About Me / edTitle */
+.projectsTitle,
+.skillsTitle {
+    color: #0187a8 !important;                  /* teal/blue from your h1/h2 */
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-top: 30px;
+    margin-left: 20px;                          /* less indent than content */
+    margin-bottom: 1rem;
+}
+
+/* Links inside Projects/Skills – make them stand out like your a:hover */
+.projects a,
+.skills a {
+    color: #ff3366 !important;                  /* your pink accent color */
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.projects a:hover,
+.skills a:hover {
+    color: #ffffff !important;
+}
+
+/* Optional: subtle background container for each section (like .edContainer) */
+.projectsContainer,
+.skillsContainer {                          /* add this class to your JSX if needed */
+    background: rgba(0, 0, 0, 0.3);         /* semi-transparent dark overlay */
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 1.5rem 20px;
+    max-width: 900px;
+}
+
+/* Make form labels match the white readable text style from About Me & Portfolio */
+.emailContact label,
+.contactDiv label,
+.contact-page label,
+.form-label {                    /* or whatever class you prefer */
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    font-size: 1.1rem;           /* slightly larger/more readable – adjust as desired */
+    font-weight: 500;            /* medium weight for better hierarchy */
+    margin-bottom: 0.4rem;       /* nice spacing above inputs */
+    display: block;              /* makes label take full width */
+}
+
+/* Make rugsBlerb text match About Me body text style */
+.rugsBlerb,
+.rugsBlerb p,
+.rugOrder {
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);  /* same readability shadow */
+    font-size: 22px;                           /* matches your global p size */
+    font-family: "Ubuntu", sans-serif;         /* or "ubuntu-regular" if using custom class */
+    line-height: 1.5;                          /* better spacing */
+    margin: 1rem 0;                            /* consistent breathing room */
+}
+
+/* If .rugOrder needs special emphasis (italic + centered) */
+.rugOrder {
+    font-style: italic;
+    font-size: 21px;                           /* your existing size */
+    text-align: center;
+    margin: 1.5rem 0;
 }
 
 .homepageContainer {
@@ -430,7 +563,7 @@ table img {
 /* Hover effect: scale up + color change + glow */
 .lets-talk-btn:hover {
   transform: scale(1.08);                     /* slight grow */
-  background: #06d121;                        /* your purple from earlier gradient */
+  /* background: #06d121;                        your purple from earlier gradient */
   box-shadow: 0 0 20px rgba(128, 6, 209, 0.7); /* purple glow */
   color: #fff;
 }

@@ -29,7 +29,9 @@ export default function Portfolio() {
             {/* <div className="edContainer"> */}
 
 
-
+<div className="portfolioContainer">
+    
+</div>
             <h2 className="edTitle">
                 Education:
             </h2>

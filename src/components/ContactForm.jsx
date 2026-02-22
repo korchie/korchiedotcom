@@ -31,7 +31,7 @@ const ContactForm = () => {
 
   return (
     <div style={{ maxWidth: '500px', margin: '0 auto', padding: '2rem' }}>
-      <h2>Let's Talk!</h2>
+      <h2 className="projectsTitle">Let's Talk!</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div style={{ marginBottom: '1rem' }}>
           <label htmlFor="user_name">Your Name</label>
