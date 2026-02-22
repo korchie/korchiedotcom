@@ -19,7 +19,7 @@ export default function Homepage() {
                         Hello, I'm Stephanie! I'm a Full-Stack JavaScript Developer.
                     </p>
                     <p className="homepageBlerb2">I build and design webpages.</p>
-                    <p className="homepageBlerb3">Need a website? <a href="mailto:stephanie.korch@gmail.com">Let's talk!</a></p>
+                    <p className="homepageBlerb3">Need a website? <a href="/contactme" className="lets-talk-btn">Let's talk!</a></p>
                 </div>
             </div>
 

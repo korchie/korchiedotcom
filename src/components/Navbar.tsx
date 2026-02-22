@@ -28,7 +28,8 @@ export default function Navbar() {
                             <Link to="/rugs">My Rugs</Link>
                         </li>
                         <li>
-                            <Link to="/contactme">Contact  Me</Link>
+                            {/* <Link to="/contactme">Contact Me</Link> */}
+                            <Link to="/contactme">Contact Me</Link>
                         </li>
                     </ul>
                 </nav>

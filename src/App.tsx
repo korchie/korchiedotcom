@@ -10,6 +10,7 @@ import Portfolio from './components/Portfolio';
 import Rugs from './components/Rugs';
 import ContactMe from './components/ContactMe';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="aboutme" element={<AboutMe />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="rugs" element={<Rugs />} />
+        {/* <Route path="contactme" element={<ContactMe />} /> */}
         <Route path="contactme" element={<ContactMe />} />
 
 
