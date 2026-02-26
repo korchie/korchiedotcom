@@ -1,3 +1,4 @@
+
 import SocialMedia from "./SocialMedia";
 import Navbar from "./Navbar";
 import Name from "./Name";

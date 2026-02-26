@@ -119,18 +119,18 @@ h2 {
 }
 
 .gitHubLogo {
-    height: 40px;
-    padding-top: 5px;
-    padding-right: 10px;
+    height: 50px;
+    /* padding-top: 5px; */
+    /* padding-right: 10px; */
 }
 
 .linkedInLogo {
-    background: white;
-    padding: 3px;
-    border-radius: 5px;
+    /* background: white; */
+    /* padding: 3px; */
+    /* border-radius: 5px; */
     /* margin-left: 300px; */
-    width: 50px;
-    border-radius: 0;
+    /* width: 50px; */
+    /* border-radius: 0; */
 }
 
 .tikTokLogo {
@@ -998,7 +998,7 @@ p {
 }
 
 .gitHubLogo {
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     height: 4vh;
     width: auto;
 }
@@ -1015,7 +1015,7 @@ p {
 }
 
 .instagramLogo {
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     margin-right: 0;
 }
 

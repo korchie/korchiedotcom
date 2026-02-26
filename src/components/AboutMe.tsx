@@ -32,9 +32,9 @@ export default function AboutMe() {
                         <div className="amContainer4">
                             {/* <p>This is a career change for me, and a really exciting one, as I'm now working in a field I have a passion for! I have a great deal of experience with customer service ranging from retail, email customer support for StockX, phone call center for a major Medicaid health insurance company in Michigan and Illinois. I have also worked at a company that cleans pharmaceutical vials and bottles as the liason between the company and the customer. I have also worked as an Administrative Assistant at a non-profit substance abuse treatment center, which was very near and dear to my heart!</p> */}
                             <p>
-                                I currently work as a Data Analyst for a tech & data company in the Market Research industry. I am additionally a co-owner of an up-and-coming game store in Kentucky.
+                                I currently work as a Data Analyst for a tech & data company in the Market Research industry. I am additionally a co-owner of an up-and-coming game store in Northern Kentucky.
                                 I have previously worked as a Production Assistant for a pharmaceutical sterilization company. I have additional experience in the Mortgage industry, email-based customer 
-                                support, worked in inbound & outbound call centers, Administrative Assistant at a Substance Abuse Treatment Center, and Retail Sales & Customer Service.
+                                support, worked in inbound & outbound call centers, Administrative Assistant at a substance abuse treatment center, and Retail Sales & Customer Service.
                             </p>
                         </div>
 
