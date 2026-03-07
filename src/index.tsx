@@ -4,27 +4,42 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics"
+import ReactGA from 'react-ga4';
 
+// Safeguard: fallback if env not loaded
+const env = import.meta.env ?? {};  // fallback to empty object if undefined
+const MEASUREMENT_ID = (env.VITE_GA_MEASUREMENT_ID as string) || 'G-052BQLFZQT';
+
+console.log('Environment variables available:', env);               // ← Check this in browser console!
+console.log('Using GA Measurement ID:', MEASUREMENT_ID);
+
+// Initialize only if ID looks valid (prevents errors from bad ID)
+if (MEASUREMENT_ID && MEASUREMENT_ID.startsWith('G-')) {
+  ReactGA.initialize(MEASUREMENT_ID, {
+    gaOptions: {
+      anonymizeIp: true,
+    },
+  });
+
+  ReactGA.send({
+    hitType: 'pageview',
+    page: window.location.pathname + window.location.search,
+  });
+} else {
+  console.warn('Google Analytics skipped: Invalid or missing Measurement ID');
+}
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
-
-
-// google analytics stuff
-
-
-
-// Initialize Firebase
+// Optional: reportWebVitals if you still use it
+reportWebVitals(console.log);
