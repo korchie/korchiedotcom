@@ -20,21 +20,22 @@ export default function AboutMe() {
             <div className="amContainer">
 
                 <div className="amContainer2">
-                    <img src={sk_transBack} className="sk_transBack" />
+                    <img src={sk_transBack} className="sk_transBack" alt="Stephanie smiling for the camera"/>
                     <div className="amContainer3">
 
                         {/* <p>I'm a graduate of the Grand Circus coding bootcamp based out of Detroit, MI. There, I learned JavaScript in a full-stack methodology. I enjoy front-end the most and have an interest in UI and UX approaches to products and designs. I have confidence in using React. I have additionally worked with TypeScript, HTML, CSS, Express & APIs, Firebase, and MongoDB & SQL.</p> */}
                         <p>
-                            I'm a freelance web developer based in rural, Southern Ohio.  I specialize in React with JavaScript. Check out my <a href="/portfolio">Portfolio </a> for specifics!
+                            I'm a web developer based in rural, Southern Ohio.  I specialize in React with JavaScript. 
+                            Check out my <a href="/portfolio">Portfolio</a> for specifics!
                         </p>
 
 
                         <div className="amContainer4">
-                            {/* <p>This is a career change for me, and a really exciting one, as I'm now working in a field I have a passion for! I have a great deal of experience with customer service ranging from retail, email customer support for StockX, phone call center for a major Medicaid health insurance company in Michigan and Illinois. I have also worked at a company that cleans pharmaceutical vials and bottles as the liason between the company and the customer. I have also worked as an Administrative Assistant at a non-profit substance abuse treatment center, which was very near and dear to my heart!</p> */}
                             <p>
-                                By day, I work as a Data Analyst at a tech & data company in the market research industry.
-                                My background spans a pretty wide range — from pharmaceutical production and mortgage services to customer support, administrative work at a substance abuse treatment 
-                                center, and retail sales.
+                                By day, I work as a Data Analyst in financial services, after several years in data analytics 
+                                for the market research industry. My background is a bit unconventional; I've worked across 
+                                pharmaceutical production, mortgage services, customer support, administrative work at a 
+                                substance abuse treatment center, and retail sales.
                             </p>
                         </div>
 
@@ -53,7 +54,7 @@ export default function AboutMe() {
                         myself. When I'm not watching the game, you might find me out on my KTM 390 Adventure — I've ridden it across the country. I also dabble in 3D printing, enjoy pulling espresso shots as 
                         an at-home barista, and spend plenty of time playing Magic: The Gathering, video games, and board games. I share my home with two cats, Baldur and Axel.
                     </p>
-                    <img src={korchieMotorcycle} className="korchieMotorcycle" />
+                    <img src={korchieMotorcycle} className="korchieMotorcycle" alt="Stephanie riding her motorcycle"/>
                     {/* <img src={motorcyclepic} className="motorcyclePic" /> */}
 
 

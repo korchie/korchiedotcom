@@ -61,7 +61,7 @@ export default function Portfolio() {
                     </div>
 
                 </dl>
-                <img src={korchieBaldurAxel} className="korchie4" />
+                <img src={korchieBaldurAxel} className="korchie4" alt="cartoon Stephanie, working at a computer with her cats"/>
             </div>
 
 
