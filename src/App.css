@@ -659,6 +659,11 @@ h2.store {
     margin-right: 20px;
 }
 
+.catsPic {
+    display: block;
+    margin: 0 auto;
+}
+
 .portfolioBlerb {
     margin-left: 30px;
     margin-right: 30px;
@@ -1067,6 +1072,10 @@ p {
     width: 50%;
     display: block;
     margin: 0 auto;
+}
+
+.catsPic {
+    width: 85%;
 }
 
 .edTitle {

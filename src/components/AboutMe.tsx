@@ -5,6 +5,7 @@ import Name from "./Name";
 import motorcyclepic from "../images/motorcycleSelfie.jpg";
 import KorchieCarousel from "./KorchieCarousel";
 import korchieMotorcycle from "../images/aboutmepix/korchieMotorcycleTransBack.png";
+import baldurAndAxel from "../images/aboutmepix/baldurAndAxel_no_background.png";
 
 export default function AboutMe() {
     return (
@@ -46,19 +47,27 @@ export default function AboutMe() {
 
                 <div className="amContainer5">
                     <p className="hobbiesBlerb">
-                        {/* When I'm not coding, I like to play videogames. Mario Kart is my game, but you will catch me playing Fortnite sometimes! I like to lerk in my boyfriend's videogame stream on Kick, which you can find <a href="http://kick.com/antinull">here.</a> I play ice hockey, but haven't skated since pre-pandemic. I ride a motorcycle. I have a 2021 KTM 390 Adventure and have riden as far as Colorado and Texas from my home in Metro Detroit, Michigan. I will be making more road trips in the future! I have 2 cats: Precious is a 16-year-old rescue kitty that spends her time laying in bed and being cute, and Baldur, who is 1 and loves hunting outside. He's pretty cute too! I also love listening to rock music and 3D printing. */}
-                    </p>
+                    
 
-                    <p>
-                        Outside of work, I'm a sports fan at heart. Hockey and baseball are my favorites, and I proudly cheer on the Detroit Red Wings, Tigers, and Lions. I'm a retired ice hockey player 
-                        myself. When I'm not watching the game, you might find me out on my KTM 390 Adventure — I've ridden it across the country. I also dabble in 3D printing, enjoy pulling espresso shots as 
-                        an at-home barista, and spend plenty of time playing Magic: The Gathering, video games, and board games. I share my home with two cats, Baldur and Axel.
+                    
+                        Outside of work, I'm a sports fan at heart. Hockey and baseball are my favorites, and I proudly 
+                        cheer on the Detroit Red Wings, Tigers, and Lions. I'm a retired ice hockey player 
+                        myself. When I'm not watching the game, you might find me out on my KTM 390 Adventure, which 
+                        I've ridden across the country. I also dabble in 3D printing, enjoy pulling espresso shots as 
+                        an at-home barista, and spend plenty of time playing Magic: The Gathering, video games, and board 
+                        games. I share my home with two cats, Baldur and Axel.
                     </p>
                     <img src={korchieMotorcycle} className="korchieMotorcycle" alt="Stephanie riding her motorcycle"/>
                     {/* <img src={motorcyclepic} className="motorcyclePic" /> */}
 
 
+
                 </div>
+                    <div>
+                        <p>
+                        <img src={baldurAndAxel} className="catsPic" alt="My 2 cats: Baldur, a black cat, and Axel, a gray and white Tabby."/>
+                    </p>
+                    </div>
                 {/* <KorchieCarousel /> */}
 
             </div>
